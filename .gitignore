@@ -1,0 +1,65 @@
+# =========================
+# BINÁRIOS / BUILD
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.test
+bin/
+build/
+dist/
+
+# =========================
+# GO
+# =========================
+vendor/
+go.work
+go.work.sum
+
+# =========================
+# ARQUIVOS DE AMBIENTE
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# LOGS
+# =========================
+*.log
+logs/
+
+# =========================
+# CACHE / TEMP
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# IDEs / EDITORES
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# SISTEMA OPERACIONAL
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# DOCKER (opcional)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# TESTES / COVERAGE
+# =========================
+coverage.out
+coverage/
